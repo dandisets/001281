@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -10,8 +11,9 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Tóth, Martin (2024) Electrophysiology and Morphology of Human Cortical Supragranular
-  Pyramidal Cells in a Wide Age Range (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001281/draft
+citation: Tóth, Martin; Szöts, Ildikó (2025) Electrophysiology and Morphology of Human
+  Cortical Supragranular Pyramidal Cells in a Wide Age Range (Version draft) [Data
+  set]. DANDI Archive. https://dandiarchive.org/dandiset/001281/draft
 contributor:
 - affiliation: []
   email: toh.martin9502@gmail.com
@@ -20,20 +22,32 @@ contributor:
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+- email: szots.ildiko@szte.hu
+  includeInCitation: true
+  name: Szöts, Ildikó
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2024-12-19T13:35:55.846598+00:00'
 description: Patch-clamp recordings of Layer 2/3 pyramidal cells in the human neocortex
   from various life stages. Data comes from Gabor Tamas Lab (HUN-REN-SZTE Research
   Group for Cortical Microcircuits; University of Szeged, Hungary).
+ethicsApproval: []
 id: DANDI:001281/draft
 identifier: DANDI:001281
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001281/versions/draft/assets/
 name: Electrophysiology and Morphology of Human Cortical Supragranular Pyramidal Cells
   in a Wide Age Range
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001281/draft
 version: draft
+wasGeneratedBy: []
