@@ -41,8 +41,7 @@ dateCreated: '2024-12-19T13:35:55.846598+00:00'
 description: Patch-clamp recordings of Layer 2/3 pyramidal cells in the human neocortex
   from various life stages. Data comes from Gabor Tamas Lab (HUN-REN-SZTE Research
   Group for Cortical Microcircuits; University of Szeged, Hungary).
-ethicsApproval:
-- {}
+ethicsApproval: []
 id: DANDI:001281/draft
 identifier: DANDI:001281
 keywords:
