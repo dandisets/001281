@@ -3,10 +3,19 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0000956
+  name: Cerebral cortex
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: Eötvös Loránd Research Network grants HUN-REN-SZTE Agykérgi Neuronhálózatok
+  Kutatócsoport and KÖ-36/2021; Ministry of Human Capacities Hungary (20391-3/2018/FEKUSTRAT
+  and NKP 16-3-VIII-3); National Research, Development and Innovation Office grants
+  GINOP 2.3.2-15-2016-00018, Élvonal KKP 133807, ÚNKP-20-5 - SZTE-681, 2019-2.1.7-ERA-NET-2022-00038,
+  TKP2021-EGA-09, TKP-2021-EGA-28; ÚNKP-21-5-SZTE-580  National Institutes of Health
+  awards U01MH114812  and UM1MH130981
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
@@ -32,17 +41,24 @@ dateCreated: '2024-12-19T13:35:55.846598+00:00'
 description: Patch-clamp recordings of Layer 2/3 pyramidal cells in the human neocortex
   from various life stages. Data comes from Gabor Tamas Lab (HUN-REN-SZTE Research
   Group for Cortical Microcircuits; University of Szeged, Hungary).
-ethicsApproval: []
+ethicsApproval:
+- {}
 id: DANDI:001281/draft
 identifier: DANDI:001281
-keywords: []
+keywords:
+- Human
+- Layer 2/3 pyramidal cells
+- Age dependence
+- In vitro
+- Patch-clamp
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001281/versions/draft/assets/
 name: Electrophysiology and Morphology of Human Cortical Supragranular Pyramidal Cells
   in a Wide Age Range
-protocol: []
+protocol:
+- https://doi.org/10.7554/eLife.100390.1
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
