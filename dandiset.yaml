@@ -52,6 +52,7 @@ keywords:
 - Patch-clamp
 license:
 - spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001281/versions/draft/assets/
 name: Electrophysiology and Morphology of Human Cortical Supragranular Pyramidal Cells
